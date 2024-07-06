@@ -29,9 +29,7 @@ def main():
         decoder_encoder(src_file, dst_file)
     except IOError:
         print('Error! please try again!')
-        main()
 
 
 if __name__ == '__main__':
-    byte_xor(b'a', b'b')
     main()
